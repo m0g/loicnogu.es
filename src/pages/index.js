@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import WordCloud from 'wordcloud'
 
 class IndexPage extends React.Component {
   constructor(props) {
