@@ -11,7 +11,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div id="index" className={this.state.flip ? 'flip' : ''}>
-        <h1>Loic Nogues</h1>
+        <h1>Loïc Nogues</h1>
         <fieldset>
           <legend>📝 Information</legend>
           <p>Freelance Web developer in Berlin.</p>
