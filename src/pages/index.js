@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { withSize } from 'react-sizeme'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -8,9 +8,10 @@ class IndexPage extends React.Component {
   }
 
   render() {
+    console.log(this.props.size);
     return (
       <div id="index" className={this.state.flip ? 'flip' : ''}>
-        <h1>Loïc Nogues</h1>
+        <h1>🥖 Loïc Nogues</h1>
         <fieldset>
           <legend>📝 Information</legend>
           <p>Freelance Web developer in <span id="city">Berlin</span>.</p>
@@ -36,7 +37,7 @@ class IndexPage extends React.Component {
         </fieldset>
         <fieldset>
           <legend>🏆 Skillz</legend>
-          <p id="marquee">
+          <p id="marquee" style={{ width: `${this.props.size.width - 37}px` }}>
             <span className="first">React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ SQL (MySQL, Postgres) ⚡ Ubuntu ⚡ Vagrant </span>
           </p>
         </fieldset>
@@ -48,4 +49,4 @@ class IndexPage extends React.Component {
   }
 }
 
-export default IndexPage
+export default withSize()(IndexPage)
