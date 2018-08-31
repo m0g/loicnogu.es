@@ -1,0 +1,21 @@
+body {
+  font-family: 'monospace';
+  background: black;
+  color: white;
+}
+
+legend {
+  font-weight: bold;
+}
+
+h1, a {
+  color: #00d800;
+}
+
+#index.flip {
+  -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);         /* Standard */
+  filter: FlipH;                 /* IE 6/7/8 */
+}
