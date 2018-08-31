@@ -13,8 +13,8 @@ class IndexPage extends React.Component {
         <h1>Loïc Nogues</h1>
         <fieldset>
           <legend>📝 Information</legend>
-          <p>Freelance Web developer in Berlin.</p>
-          <p><a href="mailto:nogues.loic@gmail.com">Email</a> <a href="https://github.com/m0g" target="_blank">Github</a></p>
+          <p>Freelance Web developer in <span id="city">Berlin</span>.</p>
+          <p>Here is my <a href="mailto:nogues.loic@gmail.com">Email</a> and also my <a href="https://github.com/m0g" target="_blank">Github</a> profile</p>
         </fieldset>
         <fieldset>
           <legend>💡 Projects</legend>
@@ -36,16 +36,9 @@ class IndexPage extends React.Component {
         </fieldset>
         <fieldset>
           <legend>🏆 Skillz</legend>
-          <ul>
-            <li>D3.js</li>
-            <li>React / Redux</li>
-            <li>Vue</li>
-            <li>Angular.js</li>
-            <li>Firebase</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>SQL (MySQL, Postgres)</li>
-          </ul>
+          <p id="marquee">
+            <span className="first">React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ SQL (MySQL, Postgres) ⚡ Ubuntu ⚡ Vagrant </span>
+          </p>
         </fieldset>
         <button onClick={() => this.setState({ flip: !this.state.flip })}>
           Do not click here
