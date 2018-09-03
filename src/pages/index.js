@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
             </li>
             <li>
               <a href="https://praise.press" target="_blank">Praise</a>
-              : Make journalism great again
+              : seed-stage journalism startup (NMA W18)
             </li>
             <li>This wonderful website you are currently staring at</li>
           </ul>
@@ -38,7 +38,7 @@ class IndexPage extends React.Component {
         <fieldset>
           <legend>🏆 Skillz</legend>
           <p id="marquee" style={{ width: `${this.props.size.width - 37}px` }}>
-            <span className="first">React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ SQL (MySQL, Postgres) ⚡ Ubuntu ⚡ Vagrant </span>
+            <span className="first">React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ SQL (MySQL, Postgres) ⚡ Ubuntu ⚡ Vagrant ⚡ Electron.js ⚡ ReactNative</span>
           </p>
         </fieldset>
         <button onClick={() => this.setState({ flip: !this.state.flip })}>
