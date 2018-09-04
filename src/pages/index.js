@@ -32,6 +32,10 @@ class IndexPage extends React.Component {
               <a href="https://praise.press" target="_blank">Praise</a>
               : seed-stage journalism startup (NMA W18)
             </li>
+            <li>
+              <a href="https://codeforafrica.github.io/BigShotsNew/" target="_blank">BigShots</a>
+              : Land grabbing in Mozambique (data Viz)
+            </li>
             <li>This wonderful website you are currently staring at</li>
           </ul>
         </fieldset>
