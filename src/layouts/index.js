@@ -4,11 +4,15 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
+import favicon from '../favicon.ico'
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+      ]}
       meta={[
         { name: 'theme-color', content: '#00d800' },
         { name: 'description', content: 'Loïc Nogues Freelance Web Developer in Berlin' },
