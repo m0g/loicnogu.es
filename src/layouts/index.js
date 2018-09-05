@@ -11,8 +11,12 @@ const Layout = ({ children, data }) => (
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'theme-color', content: '#00d800' },
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Loïc Nogues Freelance Web Developer in Berlin' },
+        { name: 'keywords', content: 'freelance, web, developer, berlin, javascript, react' },
+        { name: 'og:url', content: 'https://loicnogu.es' },
+        { name: 'og:type', content: 'Website' },
+        { name: 'og:title', content: data.site.siteMetadata.title },
+        { name: 'og:description', content: 'Loïc Nogues Freelance Web Developer in Berlin' },
       ]}
     />
     <div
