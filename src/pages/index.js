@@ -1,6 +1,8 @@
 import React from 'react'
 import { withSize } from 'react-sizeme'
 
+import Information from './../components/information'
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props);
@@ -8,14 +10,14 @@ class IndexPage extends React.Component {
   }
 
   render() {
+    console.log(this.props.data);
     return (
       <div id="index" className={this.state.flip ? 'flip' : ''}>
         <h1>🥖 Loïc Nogues</h1>
-        <fieldset>
-          <legend>📝 Information</legend>
-          <p>Freelance Web developer in <span id="city">Berlin</span>.</p>
-          <p>Here is my <a href="mailto:nogues.loic@gmail.com">Email</a> and also my <a href="https://github.com/m0g" target="_blank">Github</a> profile</p>
-        </fieldset>
+        {this.props.data.allMarkdownRemark.edges.map(({ node }) =>
+          node.fileAbsolutePath.match(/information/) &&
+          <Information node={node} key={node.fileAbsolutePath} />
+        )}
         <fieldset>
           <legend>💡 Projects</legend>
           <ul>
@@ -53,3 +55,19 @@ class IndexPage extends React.Component {
 }
 
 export default withSize()(IndexPage)
+
+export const query = graphql`
+  query MarkDownQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          fileAbsolutePath
+          frontmatter {
+            title
+          } 
+        }
+      }
+    }
+  }
+`
