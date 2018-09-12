@@ -10,7 +10,20 @@ module.exports = {
         path: `${__dirname}/data`
       }
     },
-    'gatsby-transformer-json',
     'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "nofollow"
+          }
+        }
+        ]
+      }
+    },
   ],
 }

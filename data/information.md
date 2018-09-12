@@ -1,6 +1,5 @@
 ---
-path: 'information'
-title: 'Information'
+title: 📝 Information
 ---
 
 Freelance Web developer in **Berlin**

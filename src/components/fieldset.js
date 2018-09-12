@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Information = ({ node }) => {
+const Fieldset = ({ node }) => {
 
   console.log(node);
   return (
     <fieldset>
-      <legend>📝 {node.frontmatter.title}</legend>
+      <legend>{node.frontmatter.title}</legend>
       <div
         dangerouslySetInnerHTML={{ __html: node.html }}
       />
@@ -14,4 +14,4 @@ const Information = ({ node }) => {
   )
 }
 
-export default Information
+export default Fieldset
