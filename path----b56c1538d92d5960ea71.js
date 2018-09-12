@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{103:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Loïc Nogues: Freelance Web Dev"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{105:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Loïc Nogues: Freelance Web Dev"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----b56c1538d92d5960ea71.js.map
