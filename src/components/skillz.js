@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const Skillz = ({ size, node }) => (
   <fieldset>
-    <legend>🏆 Skillz</legend>
+    <legend><span role="img" aria-label="trophy">🏆</span> Skillz</legend>
     <div id="marquee" style={{ width: `${size.width - 37}px` }}>
       <span 
         className="first"

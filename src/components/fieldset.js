@@ -1,9 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const Fieldset = ({ node }) => {
-
-  console.log(node);
   return (
     <fieldset>
       <legend>{node.frontmatter.title}</legend>
