@@ -15,21 +15,16 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-        {
-          resolve: "gatsby-remark-external-links",
-          options: {
-            target: "_blank",
-            rel: "nofollow"
+          "gatsby-remark-copy-linked-files",
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
           }
-        }
         ]
       }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: ["gatsby-remark-copy-linked-files"],
-      },
     },
   ],
 }
