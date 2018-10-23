@@ -22,9 +22,12 @@ module.exports = {
               target: "_blank",
               rel: "nofollow"
             }
-          }
+          },
+
         ]
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
