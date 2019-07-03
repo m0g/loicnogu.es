@@ -2,6 +2,7 @@
 title: 💡 Projects
 ---
 
+* [EPLN-library](https://library.prisonlitigation.org/en): Digital online library for the european prison litigation network
 * [Sourcefabric/Liveblog](https://github.com/liveblog/liveblog): Open source live blogging CMS
 * [Ansel](https://github.com/ansel-app/ansel): Digital image organizer powered by the web (also open source)
 * [Praise](https://praise.press): seed-stage journalism startup (NMA W18)
