@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Skillz = ({ size, node }) => (
+const Skills = ({ size, node }) => (
   <fieldset>
-    <legend><span role="img" aria-label="trophy">🏆</span> Skillz</legend>
+    <legend><span role="img" aria-label="trophy">🏆</span> Skills</legend>
     <div id="marquee" style={{ width: `${size.width - 37}px` }}>
       <span 
         className="first"
@@ -12,4 +12,4 @@ const Skillz = ({ size, node }) => (
   </fieldset>
 )
 
-export default Skillz
+export default Skills

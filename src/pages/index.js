@@ -3,7 +3,7 @@ import { withSize } from 'react-sizeme'
 import { StaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Fieldset from '../components/fieldset'
-import Skillz from '../components/skillz'
+import Skills from '../components/skills'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -42,8 +42,8 @@ class IndexPage extends React.Component {
                 <Fieldset node={node} key={node.fileAbsolutePath} />
               )}
               {data.allMarkdownRemark.edges.map(({ node }) =>
-                node.fileAbsolutePath.match(/skillz/) &&
-                <Skillz node={node} key={node.fileAbsolutePath} size={this.props.size} />
+                node.fileAbsolutePath.match(/skills/) &&
+                <Skills node={node} key={node.fileAbsolutePath} size={this.props.size} />
               )}
             </div>
           </Layout>
