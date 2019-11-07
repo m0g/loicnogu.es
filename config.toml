@@ -1,0 +1,4 @@
+baseURL = "https://loicnogu.es"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "loicnogu.es"

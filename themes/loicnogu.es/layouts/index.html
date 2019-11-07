@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div id="___gatsby">
+ <div
+    style="outline:none"
+    tabindex="-1"
+    role="group"
+  >
+    <div style="position: relative;">
+      <div>
+        <div id="index" class="">
+          <h1>🥖 Loïc Nogues</h1>
+          {{ range .Pages.ByTitle.Reverse }}
+            <fieldset>
+              <legend>{{.Title}}</legend>
+              {{ if .Params.Marquee }}
+                <marquee scrollamount='7' scrolldelay='1' behavior='alternate' loop='1'>
+                  {{.Content}}
+                </marquee>
+              {{ else }}
+                {{.Content}}
+              {{ end }}
+            </fieldset>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
