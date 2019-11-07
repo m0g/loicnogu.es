@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loïc Nogues: Freelance Web Dev</title>
+    <link>https://loicnogu.es/</link>
+    <description>Recent content on Loïc Nogues: Freelance Web Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://loicnogu.es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>🏆 Skills</title>
+      <link>https://loicnogu.es/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loicnogu.es/skills/</guid>
+      <description>React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ JavaScript ⚡ Wordpress ⚡ PHP ⚡ Ruby ⚡ Rails ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ MySQL ⚡ Postgres ⚡ Ubuntu ⚡ Vagrant ⚡ Electron.js ⚡ ReactNative ⚡ Gulp ⚡ Webpack ⚡ TypeScript</description>
+    </item>
+    
+    <item>
+      <title>💡 Projects</title>
+      <link>https://loicnogu.es/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loicnogu.es/projects/</guid>
+      <description> EPLN-library: Digital online library for the european prison litigation network Sourcefabric/Liveblog: Open source live blogging CMS Ansel: Digital image organizer powered by the web (also open source) Praise: seed-stage journalism startup (NMA W18) BigShots: Land grabbing in Mozambique (data Viz) This wonderful website you are currently looking at  </description>
+    </item>
+    
+    <item>
+      <title>📝 Information</title>
+      <link>https://loicnogu.es/information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loicnogu.es/information/</guid>
+      <description>Freelance Web developer in Berlin
+Here are my Email and my Github profile</description>
+    </item>
+    
+  </channel>
+</rss>

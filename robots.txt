@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://loicnogu.es/sitemap.xml
-Host: https://loicnogu.es
