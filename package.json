@@ -1,22 +1,26 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "loicnogu.es",
+  "description": "Loic Nogues' personal website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Loic Nogues <nogues.loic@gmail.com>",
   "dependencies": {
-    "gatsby": "2.13.1",
-    "gatsby-link": "2.2.0",
-    "gatsby-plugin-react-helmet": "3.1.0",
-    "gatsby-plugin-sharp": "^2.0.6",
-    "gatsby-remark-copy-linked-files": "^2.0.5",
+    "gatsby": "2.17.10",
+    "gatsby-link": "2.2.22",
+    "gatsby-plugin-no-javascript": "^2.0.5",
+    "gatsby-plugin-react-helmet": "3.1.13",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "2.2.36",
+    "gatsby-plugin-sitemap": "^2.2.19",
+    "gatsby-remark-copy-linked-files": "2.1.28",
     "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-source-filesystem": "2.1.2",
-    "gatsby-transformer-remark": "2.5.0",
-    "gatsby-transformer-sharp": "^2.1.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "gatsby-source-filesystem": "2.1.35",
+    "gatsby-transformer-remark": "2.6.32",
+    "gatsby-transformer-sharp": "2.3.2",
+    "npm-check-updates": "^3.2.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
     "react-helmet": "^5.2.0",
-    "react-sizeme": "^2.5.2"
+    "react-sizeme": "2.6.10"
   },
   "keywords": [
     "gatsby"
@@ -24,12 +28,12 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "deploy": "gatsby build --prefix-paths &&  echo 'loicnogu.es' > public/CNAME && gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "2.0.1",
+    "gh-pages": "2.1.1",
     "prettier": "1.18.2"
   },
   "repository": {

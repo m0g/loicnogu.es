@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Loïc Nogues: Freelance Web Dev',
+    description: 'Loïc Nogues Freelance Web Developer in Berlin',
+    siteUrl: 'https://loicnogu.es'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -27,7 +29,14 @@ module.exports = {
         ]
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]    }
+    },
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-no-javascript',
   ],
 }

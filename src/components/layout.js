@@ -12,7 +12,9 @@ const Layout = ({ children }) => (
       query SiteTitleQuery {
         site {
           siteMetadata {
-            title
+            title,
+            description,
+            siteUrl
           }
         }
       }
@@ -26,12 +28,12 @@ const Layout = ({ children }) => (
           ]}
           meta={[
             { name: 'theme-color', content: '#00d800' },
-            { name: 'description', content: 'Loïc Nogues Freelance Web Developer in Berlin' },
+            { name: 'description', content: data.site.siteMetadata.description },
             { name: 'keywords', content: 'freelance, web, developer, berlin, javascript, react' },
-            { name: 'og:url', content: 'https://loicnogu.es' },
+            { name: 'og:url', content: data.site.siteMetadata.siteUrl},
             { name: 'og:type', content: 'Website' },
             { name: 'og:title', content: data.site.siteMetadata.title },
-            { name: 'og:description', content: 'Loïc Nogues Freelance Web Developer in Berlin' },
+            { name: 'og:description', content: data.site.siteMetadata.description },
           ]}
         />
         <div
