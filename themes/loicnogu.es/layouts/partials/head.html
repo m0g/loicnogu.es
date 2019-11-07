@@ -1,4 +1,5 @@
 <head>
+  <title>{{ .Site.Title }}</title>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta
@@ -11,29 +12,27 @@
     type="image/png"
     href="data:image/vnd.microsoft.icon;base64,AAABAAMAMDACAAEAAQCMAAAANgAAACAgAgABAAEAaQAAAMIAAAAQEBAAAQAEAJAAAAArAQAAiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAU0lEQVRoge3PQQ0AIRDAwOX8C8QNiLjHhKSjoF2z58zDPh3wVwNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA9oFgBsCNxxGYPAAAAAASUVORK5CYIKJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAwSURBVFiF7c4xAQAgDMCwgn+BcwMy9qQGmtP0WuxuzgEAAAAAAAAAAAAAAAAAAKo+uyUCFzgl3QsAAAAASUVORK5CYIKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAABXSURBVDiN7c4hDoBAEEPRPw0YsngUZ+EKXJ5wDcQKzAwWCAJWkq1t+lJjJbhlso6FnRxBxi+dgIQYrGFWwp6ANxHQI1QyBnBgw8uB85MKVOBvwGjtZ+AAZlEOe+PXhA8AAAAASUVORK5CYII="
   />
-  <meta name="theme-color" content="#00d800" data-react-helmet="true" />
+  <meta name="theme-color" content="#00d800" />
   <meta
     name="description"
-    content="Loïc Nogues Freelance Web Developer in Berlin"
+    content="{{ .Site.Params.Description }}"
   />
   <meta
     name="keywords"
-    content="freelance, web, developer, berlin, javascript, react"
+    content="{{ .Site.Params.Keywords }}"
   />
   <meta
     name="og:url"
-    content="https://loicnogu.es"
+    content="{{ .Site.Params.Url }}"
   />
-  <meta name="og:type" content="Website" data-react-helmet="true" />
+  <meta name="og:type" content="Website" />
   <meta
     name="og:title"
-    content="Loïc Nogues: Freelance Web Dev"
-    data-react-helmet="true"
+    content="{{ .Site.Title }}"
   />
   <meta
     name="og:description"
-    content="Loïc Nogues Freelance Web Developer in Berlin"
-    data-react-helmet="true"
+    content="{{ .Site.Params.Description }}"
   />
 </head>
 
