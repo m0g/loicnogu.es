@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Loïc Nogues: Freelance Web Dev</title>
+    <title>Loïc Nogues Freelance Web Developer in Berlin</title>
     <link>https://loicnogu.es/</link>
-    <description>Recent content on Loïc Nogues: Freelance Web Dev</description>
+    <description>Recent content on Loïc Nogues Freelance Web Developer in Berlin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://loicnogu.es/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://loicnogu.es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🏆 Skills</title>
       <link>https://loicnogu.es/skills/</link>
@@ -25,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loicnogu.es/projects/</guid>
-      <description> EPLN-library: Digital online library for the european prison litigation network Sourcefabric/Liveblog: Open source live blogging CMS Ansel: Digital image organizer powered by the web (also open source) Praise: seed-stage journalism startup (NMA W18) BigShots: Land grabbing in Mozambique (data Viz) This wonderful website you are currently looking at  </description>
+      <description> EPLN-library: Digital online library for the european prison litigation network Sourcefabric/Liveblog: Open source live blogging CMS Ansel: Digital image organizer powered by the web (also open source) Praise: seed-stage journalism startup (NMA W18) BigShots: Land grabbing in Mozambique (data Viz) Officina.berlin: A Berlin coworking space website Farmradio/uliza: Listener interactivity service This wonderful website you are currently looking at  </description>
     </item>
     
     <item>
