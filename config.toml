@@ -8,3 +8,8 @@ enableRobotsTXT = true
   Keywords = "freelance, web, developer, berlin, javascript, react"
   Url = "https://loicnogu.es"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.blackfriday]
+    plainIDAnchors = true
+    hrefTargetBlank = true
