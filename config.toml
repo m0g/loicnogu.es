@@ -1,10 +1,10 @@
 baseURL = "https://loicnogu.es"
 languageCode = "en-us"
-title = "Loïc Nogues Freelance Web Developer in Berlin"
+title = "Loïc Nogues Web Developer in Berlin"
 enableRobotsTXT = true
 
 [params]
-  Description = "Loïc Nogues Freelance Web Developer in Berlin"
+  Description = "Loïc Nogues Web Developer in Berlin"
   Keywords = "freelance, web, developer, berlin, javascript, react"
   Url = "https://loicnogu.es"
 
