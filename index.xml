@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loïc Nogues Web Developer in Berlin</title>
+    <link>https://loicnogu.es/</link>
+    <description>Recent content on Loïc Nogues Web Developer in Berlin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://loicnogu.es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏆 Skills</title>
+      <link>https://loicnogu.es/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://loicnogu.es/skills/</guid>
+      <description>&lt;p&gt;Svelte ⚡ React ⚡ Redux ⚡ Vue ⚡ Angular.js ⚡ JavaScript ⚡ AWS ⚡ Terraform ⚡ PHP ⚡ Ruby ⚡ Rails ⚡ D3.js ⚡ Firebase ⚡ Node.js ⚡ MongoDB ⚡ MySQL ⚡ Postgres ⚡ Ubuntu ⚡ Vagrant ⚡ Electron.js ⚡ ReactNative ⚡ Gulp ⚡ Webpack ⚡ TypeScript&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>💡 Projects</title>
+      <link>https://loicnogu.es/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://loicnogu.es/projects/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://library.prisonlitigation.org/en&#34;&gt;EPLN-library&lt;/a&gt;: Digital online library for the european prison litigation network&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/liveblog/liveblog&#34;&gt;Sourcefabric/Liveblog&lt;/a&gt;: Open source live blogging CMS&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ansel-app/ansel&#34;&gt;Ansel&lt;/a&gt;: Digital image organizer powered by the web (also open source)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://praise.press&#34;&gt;Praise&lt;/a&gt;: seed-stage journalism startup (NMA W18)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://codeforafrica.github.io/BigShotsNew/&#34;&gt;BigShots&lt;/a&gt;: Land grabbing in Mozambique (data Viz)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://officina.berlin/en&#34;&gt;Officina.berlin&lt;/a&gt;: A Berlin coworking space website&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://farmradio.org/uliza-services/&#34;&gt;Farmradio/uliza&lt;/a&gt;: Listener interactivity service&lt;/li&gt;&#xA;&lt;li&gt;This wonderful &lt;a href=&#34;https://github.com/m0g/loicnogu.es&#34;&gt;website&lt;/a&gt; you are currently looking at&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>📝 Information</title>
+      <link>https://loicnogu.es/information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://loicnogu.es/information/</guid>
+      <description>&lt;p&gt;Web developer at &lt;a href=&#34;https://www.goodcrowd.org&#34;&gt;Goodcrowd.org&lt;/a&gt; in &lt;strong&gt;Berlin&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here are my &lt;a href=&#34;mailto:mail@loicnogu.es&#34;&gt;Email&lt;/a&gt; and my &lt;a href=&#34;https://github.com/m0g&#34;&gt;Github&lt;/a&gt; profile&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
