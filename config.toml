@@ -9,7 +9,7 @@ enableRobotsTXT = true
   Url = "https://loicnogu.es"
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  # defaultMarkdownHandler = "blackfriday"
   [markup.blackfriday]
     plainIDAnchors = true
     hrefTargetBlank = true
